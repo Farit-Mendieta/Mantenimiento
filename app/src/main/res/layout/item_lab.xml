@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:hint="@string/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:hint="@string/descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etNombre"
+            android:layout_marginTop="4dp"/>
+
+        <EditText
+            android:id="@+id/etMarca"
+            android:hint="@string/marca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etDescripcion"
+            android:layout_marginTop="4dp"/>
+
+
+        <EditText
+            android:id="@+id/etModelo"
+            android:hint="@string/modelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etMarca"
+            android:layout_marginTop="4dp"/>
+
+        <EditText
+            android:id="@+id/etProcesador"
+            android:hint="@string/procesador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etModelo"
+            android:layout_marginTop="4dp"/>
+
+        <EditText
+            android:id="@+id/etRam"
+            android:hint="@string/ram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etProcesador"
+            android:layout_marginTop="4dp"/>
+
+        <EditText
+            android:id="@+id/etAlmacenamiento"
+            android:hint="@string/almacenamiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etRam"
+            android:layout_marginTop="4dp"/>
+
+        <EditText
+            android:id="@+id/etService_tag"
+            android:hint="@string/service_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etAlmacenamiento"
+            android:layout_marginTop="4dp"/>
+
+        <EditText
+            android:id="@+id/etNo_inventario"
+            android:hint="@string/no_inventario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etService_tag"
+            android:layout_marginTop="4dp"/>
+
+        <EditText
+            android:id="@+id/etUbicacion"
+            android:hint="@string/ubicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etNo_inventario"
+            android:layout_marginTop="4dp"/>
+
+        <Button
+            android:id="@+id/etGuardar"
+            android:hint="@string/guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etUbicacion"
+            android:layout_marginTop="16dp"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

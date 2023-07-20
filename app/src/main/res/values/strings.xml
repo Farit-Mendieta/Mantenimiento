@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mantenimiento</string>
+    <string name="nombre">Nombre</string>
+    <string name="descripcion">Descripción</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="procesador">Procesador</string>
+    <string name="ram">RAM</string>
+    <string name="almacenamiento">Almacenamiento</string>
+    <string name="service_tag">Service_Tag</string>
+    <string name="no_inventario">No_Inventario</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="guardar">Guardar</string>
+    <string name="BuscarPC">Buscar Computadora\n</string>
+
+</resources>
