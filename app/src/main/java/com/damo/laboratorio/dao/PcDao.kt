@@ -13,7 +13,7 @@ interface PcDao {
     fun getAllPc() : MutableList<PcEntity>
 
     @Insert
-    fun addPc(pcEntity : PcEntity)
+    fun addPc(pcEntity : PcEntity) : Long
 
     @Update
     fun updatePc(pcEntity: PcEntity)
